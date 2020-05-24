@@ -29,6 +29,7 @@
           <h6>Visit Us</h6>
           <a
             href="https://www.google.com/maps/place/410+W+Chestnut+St,+Louisville,+KY+40202/@38.2488751,-85.7606713,17z/data=!3m1!4b1!4m5!3m4!1s0x886972afaf855dd3:0x7fda89111b43c510!8m2!3d38.2488751!4d-85.7584826"
+            target="_blank"
           >
             <address>
               410 West Chestnut Street
