@@ -1,8 +1,9 @@
 import * as functions from 'firebase-functions';
 
-// // Start writing Firebase Functions
-// // https://firebase.google.com/docs/functions/typescript
-//
-// export const helloWorld = functions.https.onRequest((request, response) => {
-//  response.send("Hello from Firebase!");
-// });
+import { sendEmail } from "./sendgrid";
+
+const CONTACT_FORM_TEMPLATE_ID: string = functions.config().sendgrid.template.contact;
+
+export const contactForm = functions.https.onCall(async (data, context) => {
+  await sendEmail(CONTACT_FORM_TEMPLATE_ID, "chiou.kai@gmail.com", data);
+});
