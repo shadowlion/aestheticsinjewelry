@@ -1,8 +1,8 @@
 <template>
   <section class="container py-5">
     <div class="row">
-      <div class="col">
-        <div class="card">
+      <div class="col-md-4">
+        <div class="card mb-2">
           <img :src="require('@/assets/service-1.png')" class="card-img-top" />
           <div class="card-body">
             <h5 class="card-title">Jewelry</h5>
@@ -14,8 +14,8 @@
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card">
+      <div class="col-md-4">
+        <div class="card mb-2">
           <img :src="require('@/assets/service-2.png')" class="card-img-top" />
           <div class="card-body">
             <h5 class="card-title">Jewelry Repairs</h5>
@@ -27,8 +27,8 @@
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card">
+      <div class="col-md-4">
+        <div class="card mb-2">
           <img :src="require('@/assets/service-3.png')" class="card-img-top" />
           <div class="card-body">
             <h5 class="card-title">Visit Us!</h5>
