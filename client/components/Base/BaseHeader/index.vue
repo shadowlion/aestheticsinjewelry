@@ -11,7 +11,7 @@
           <img :src="require('@/assets/aj-logo.png')" class="img-fluid" />
         </a>
       </div>
-      <div class="d-flex justify-content-around py-5">
+      <div class="d-flex justify-content-around py-4">
         <a href="/">Home</a>
         <a href="/about">About Us</a>
         <a href="/exceptionals">The Exceptionals</a>
