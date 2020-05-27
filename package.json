@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Aesthetics in Jewelry Site",
   "scripts": {
-    "deploy:frontend": "cd client && npm run generate"
+    "deploy:frontend": "cd client && npm i && npm run generate"
   },
   "repository": {
     "type": "git",
