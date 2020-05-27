@@ -7,10 +7,15 @@
         <a href="mailto:info@aestheticsinjewelry.com">
           info@aestheticsinjewelry.com
         </a>
-        <a href="https://www.youtube.com/channel/UCnsJN9wV4YbptB8NmlXFVaQ">
+        <a
+          href="https://www.youtube.com/channel/UCnsJN9wV4YbptB8NmlXFVaQ"
+          target="_blank"
+        >
           Youtube
         </a>
-        <a href="https://www.facebook.com/aestheticsinjewelry/">Facebook</a>
+        <a href="https://www.facebook.com/aestheticsinjewelry/" target="_blank">
+          Facebook
+        </a>
       </div>
       <hr />
       <div class="d-flex justify-content-center">
@@ -45,10 +50,18 @@
             <a href="mailto:info@aestheticsinjewelry.com">
               info@aestheticsinjewelry.com
             </a>
-            <a href="https://www.youtube.com/channel/UCnsJN9wV4YbptB8NmlXFVaQ">
+            <a
+              href="https://www.youtube.com/channel/UCnsJN9wV4YbptB8NmlXFVaQ"
+              target="_blank"
+            >
               Youtube
             </a>
-            <a href="https://www.facebook.com/aestheticsinjewelry/">Facebook</a>
+            <a
+              href="https://www.facebook.com/aestheticsinjewelry/"
+              target="_blank"
+            >
+              Facebook
+            </a>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>

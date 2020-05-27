@@ -26,7 +26,7 @@
           </address>
 
           <address>
-            Phone: <a href="tel:5025892728">(502) 589-2728</a>
+            Phone: <a href="tel:5025892728">(502)589-2728</a>
             <br />
             Email:
             <a href="mailto:info@aestheticsinjewelry.com">
@@ -35,11 +35,19 @@
             <br />
             Fax: (502) 589-0209
             <br />
-            <a href="https://www.youtube.com/channel/UCnsJN9wV4YbptB8NmlXFVaQ">
+            <a
+              href="https://www.youtube.com/channel/UCnsJN9wV4YbptB8NmlXFVaQ"
+              target="_blank"
+            >
               Youtube
             </a>
             <br />
-            <a href="https://www.facebook.com/aestheticsinjewelry/">Facebook</a>
+            <a
+              href="https://www.facebook.com/aestheticsinjewelry/"
+              target="_blank"
+            >
+              Facebook
+            </a>
           </address>
         </div>
         <div class="col-md-6">
