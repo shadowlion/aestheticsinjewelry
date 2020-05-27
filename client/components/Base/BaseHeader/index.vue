@@ -24,11 +24,11 @@
         <a href="/exceptionals">The Exceptionals</a>
         <a href="/education">Education</a>
         <a href="/services">Services</a>
-        <a href="/visit">Visit Us</a>
+        <a href="/visit-us">Visit Us</a>
       </div>
     </div>
     <div class="d-block d-md-none">
-      <b-navbar toggleable="md">
+      <b-navbar toggleable="md" class="pb-4">
         <b-navbar-brand href="#">Aesthetics in Jewelry</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -40,7 +40,7 @@
             <a href="/exceptionals" class="nav-item">The Exceptionals</a>
             <a href="/education" class="nav-item">Education</a>
             <a href="/services" class="nav-item">Services</a>
-            <a href="/visit" class="nav-item">Visit Us</a>
+            <a href="/visit-us" class="nav-item">Visit Us</a>
             <a href="tel:5025892728">(502)589-2728</a>
             <a href="mailto:info@aestheticsinjewelry.com">
               info@aestheticsinjewelry.com

@@ -19,7 +19,7 @@
       </p>
       <p class="mb-0">
         Shopping for high quality jewelry has never been so simple or so
-        rewarding. Contact us at <a href="tel:5025892728">(502) 589-2728</a>
+        rewarding. Contact us at <a href="tel:5025892728">(502)589-2728</a>
         and we'll be happy to answer any questions or comments about our
         superior collection. Make the investment today.
       </p>
