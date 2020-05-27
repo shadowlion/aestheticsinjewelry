@@ -27,7 +27,7 @@
         <a href="/">Home</a>
         <a href="/about">About Us</a>
         <a href="/exceptionals">The Exceptionals</a>
-        <a href="/education">Education</a>
+        <a href="/birthstones">Birthstones</a>
         <a href="/services">Services</a>
         <a href="/visit-us">Visit Us</a>
       </div>
@@ -43,7 +43,7 @@
             <a href="/" class="nav-item">Home</a>
             <a href="/about" class="nav-item">About Us</a>
             <a href="/exceptionals" class="nav-item">The Exceptionals</a>
-            <a href="/education" class="nav-item">Education</a>
+            <a href="/birthstones" class="nav-item">Birthstones</a>
             <a href="/services" class="nav-item">Services</a>
             <a href="/visit-us" class="nav-item">Visit Us</a>
             <a href="tel:5025892728">(502)589-2728</a>
