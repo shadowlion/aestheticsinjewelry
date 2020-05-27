@@ -13,13 +13,13 @@ export async function sendEmail(
   try {
     const payload: any = {
       to,
-      from: "info@aestheticsinjewelry.com",
+      from: "chiou.kai@gmail.com",
       templateId,
       dynamic_template_data: extras || {}
     };
 
     await sgMail.send(payload);
   } catch (error) {
-    console.error(error);
+    console.log(error.response.body);
   }
 }
