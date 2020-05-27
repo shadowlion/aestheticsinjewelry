@@ -1,7 +1,7 @@
 <template>
   <section class="container">
-    <h1 class="text-center">About Us</h1>
-    <article class="py-5">
+    <h1 class="text-center pb-3">About Us</h1>
+    <article>
       <p>
         Aesthetics in Jewelry was founded in 1976 by James Jackson (Jimmy the
         Jeweler). He was born in New Albany, Indiana, grew up in Louisville,
