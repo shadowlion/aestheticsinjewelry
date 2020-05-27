@@ -4,7 +4,9 @@ import { sendEmail } from "./sendgrid";
 
 const CONTACT_FORM_TEMPLATE_ID: string = functions.config().sendgrid.template.contact;
 
-export const contactForm = functions.https.onCall(async (data, context) => {
-  await sendEmail(CONTACT_FORM_TEMPLATE_ID, "chiou.kai@gmail.com", data);
-  return { success: true };
-});
+export const contactForm = functions.firestore.document("messages/{id}").onCreate(
+	async (data, context) => {
+		const values = data.data();
+	  await sendEmail(CONTACT_FORM_TEMPLATE_ID, "chiou.kai@gmail.com", values);
+	}
+);
