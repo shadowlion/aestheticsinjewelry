@@ -6,4 +6,5 @@ const CONTACT_FORM_TEMPLATE_ID: string = functions.config().sendgrid.template.co
 
 export const contactForm = functions.https.onCall(async (data, context) => {
   await sendEmail(CONTACT_FORM_TEMPLATE_ID, "chiou.kai@gmail.com", data);
+  return { success: true };
 });
