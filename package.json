@@ -1,0 +1,17 @@
+{
+  "name": "aestheticsinjewelry",
+  "version": "1.0.0",
+  "description": "Aesthetics in Jewelry Site",
+  "scripts": {
+    "deploy:frontend": "cd client && npm run generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowlion/aestheticsinjewelry.git"
+  },
+  "author": "Justin Chiou <chiou.kai@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/shadowlion/aestheticsinjewelry/issues"
+  },
+  "homepage": "https://github.com/shadowlion/aestheticsinjewelry#readme"
+}
