@@ -34,6 +34,12 @@
             </a>
             <br />
             Fax: (502) 589-0209
+            <br />
+            <a href="https://www.youtube.com/channel/UCnsJN9wV4YbptB8NmlXFVaQ">
+              Youtube
+            </a>
+            <br />
+            <a href="https://www.facebook.com/aestheticsinjewelry/">Facebook</a>
           </address>
         </div>
         <div class="col-md-6">
