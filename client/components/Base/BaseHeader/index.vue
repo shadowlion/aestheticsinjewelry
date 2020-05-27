@@ -3,7 +3,14 @@
     <div class="d-none d-md-block">
       <div class="d-flex justify-content-between pt-3">
         <p class="text-muted mb-0">Let's find you some amazing jewelry!</p>
-        <a href="tel:5025892728">502-589-2728</a>
+        <a href="tel:5025892728">(502)589-2728</a>
+        <a href="mailto:info@aestheticsinjewelry.com">
+          info@aestheticsinjewelry.com
+        </a>
+        <a href="https://www.youtube.com/channel/UCnsJN9wV4YbptB8NmlXFVaQ">
+          Youtube
+        </a>
+        <a href="https://www.facebook.com/aestheticsinjewelry/">Facebook</a>
       </div>
       <hr />
       <div class="d-flex justify-content-center">
@@ -34,6 +41,14 @@
             <a href="/education" class="nav-item">Education</a>
             <a href="/services" class="nav-item">Services</a>
             <a href="/visit" class="nav-item">Visit Us</a>
+            <a href="tel:5025892728">(502)589-2728</a>
+            <a href="mailto:info@aestheticsinjewelry.com">
+              info@aestheticsinjewelry.com
+            </a>
+            <a href="https://www.youtube.com/channel/UCnsJN9wV4YbptB8NmlXFVaQ">
+              Youtube
+            </a>
+            <a href="https://www.facebook.com/aestheticsinjewelry/">Facebook</a>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
