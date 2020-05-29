@@ -144,34 +144,28 @@
           </b-tab>
           <b-tab title="Custom Designs/Engravings">
             <b-card-title>Custom Design Services</b-card-title>
-            <b-card-text>
-              <ul>
-                <li>Computer Generated (CAD Cam, Milling and 3D Printing)</li>
-                <li>Modification Services (existing designs)</li>
-                <li>Casting (Gold, Silver and Platinum, Lost Wax)</li>
-                <li>Hand-wrought designs (using laser technology)</li>
-              </ul>
-            </b-card-text>
+            <ul>
+              <li>Computer Generated (CAD Cam, Milling and 3D Printing)</li>
+              <li>Modification Services (existing designs)</li>
+              <li>Casting (Gold, Silver and Platinum, Lost Wax)</li>
+              <li>Hand-wrought designs (using laser technology)</li>
+            </ul>
 
             <b-card-title>Custom Engraving Services</b-card-title>
-            <b-card-text>
-              <ul>
-                <li>By hand</li>
-                <li>By machine</li>
-                <li>Computer Generated</li>
-              </ul>
-            </b-card-text>
+            <ul>
+              <li>By hand</li>
+              <li>By machine</li>
+              <li>Computer Generated</li>
+            </ul>
 
             <b-card-title>Custom Designs and Engravings For:</b-card-title>
-            <b-card-text>
-              <ul>
-                <li>Signet Rings</li>
-                <li>Inside Rings</li>
-                <li>Family Crests</li>
-                <li>Glass (engraving)</li>
-                <li>Stone (engraving)</li>
-              </ul>
-            </b-card-text>
+            <ul>
+              <li>Signet Rings</li>
+              <li>Inside Rings</li>
+              <li>Family Crests</li>
+              <li>Glass (engraving)</li>
+              <li>Stone (engraving)</li>
+            </ul>
 
             <b-card-title>Semi-Annual Inspection</b-card-title>
             <b-card-text>
@@ -184,20 +178,16 @@
           </b-tab>
           <b-tab title="Replacements & Appraisals">
             <b-card-title>Replacements</b-card-title>
-            <b-card-text>
-              <ul>
-                <li>Total Piece Replacement</li>
-                <li>Stone Replacement</li>
-              </ul>
-            </b-card-text>
+            <ul>
+              <li>Total Piece Replacement</li>
+              <li>Stone Replacement</li>
+            </ul>
 
             <b-card-title>Appraisals</b-card-title>
-            <b-card-text>
-              <ul>
-                <li>Insurance</li>
-                <li>Estate</li>
-              </ul>
-            </b-card-text>
+            <ul>
+              <li>Insurance</li>
+              <li>Estate</li>
+            </ul>
 
             <b-card-title>Semi-Annual Inspection</b-card-title>
             <b-card-text>
