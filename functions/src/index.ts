@@ -8,7 +8,12 @@ export const contactForm = functions.firestore.document("messages/{id}").onCreat
   async (data, context) => {
     try {
       const values = data.data();
-      await sendEmail(CONTACT_FORM_TEMPLATE_ID, "chiou.kai@gmail.com", values);
+
+      await sendEmail(
+      	CONTACT_FORM_TEMPLATE_ID,
+      	"info@aestheticsinjewelry.com",
+      	values
+      );
     } catch (error) {
       console.error(error);
     }

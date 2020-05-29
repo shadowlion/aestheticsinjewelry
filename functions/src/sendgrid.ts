@@ -13,7 +13,7 @@ export async function sendEmail(
   try {
     const payload: any = {
       to,
-      from: "chiou.kai@gmail.com",
+      from: "info@aestheticsinjewelry.com",
       templateId,
       dynamic_template_data: extras || {}
     };
