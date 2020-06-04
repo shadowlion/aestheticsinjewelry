@@ -1,19 +1,11 @@
-import * as functions from 'firebase-functions';
+import { firestore } from 'firebase-functions';
+import { ContactFormMessage } from './types';
+import { sendSMS } from './twilio';
 
-import { sendEmail } from "./sendgrid";
-
-const CONTACT_FORM_TEMPLATE_ID: string = functions.config().sendgrid.template.contact;
-
-export const contactForm = functions.firestore.document("messages/{id}").onCreate(
+export const contactForm = firestore.document("messages/{id}").onCreate(
   async (data, context) => {
     try {
-      const values = data.data();
-
-      await sendEmail(
-      	CONTACT_FORM_TEMPLATE_ID,
-      	"info@aestheticsinjewelry.com",
-      	values
-      );
+      await sendSMS(data.data() as ContactFormMessage);
     } catch (error) {
       console.error(error);
     }
