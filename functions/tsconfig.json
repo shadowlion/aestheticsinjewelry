@@ -10,6 +10,6 @@
   },
   "compileOnSave": true,
   "include": [
-    "src", "../shared/types.ts"
+    "src"
   ]
 }

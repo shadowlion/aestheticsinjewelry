@@ -37,7 +37,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { db } from "@/plugins/firebase";
-import { ContactFormMessage } from "../../../../functions/src/types";
+import { ContactFormMessage } from "./types";
 
 export default Vue.extend({
   data() {
