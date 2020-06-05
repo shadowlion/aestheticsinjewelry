@@ -51,9 +51,7 @@ export default Vue.extend({
   },
   computed: {
     methodPlaceholder() {
-      const method: string | null = this.form.method;
-
-      switch (method) {
+      switch (this.form.method as string | null) {
         case "Phone":
           return "(###) ###-####";
         case "Email":
