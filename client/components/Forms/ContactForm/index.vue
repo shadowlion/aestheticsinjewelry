@@ -36,8 +36,8 @@
 
 <script lang="ts">
 import Vue from "vue";
-import { db } from "@/plugins/firebase";
 import { ContactFormMessage } from "./types";
+import { db } from "@/plugins/firebase";
 
 export default Vue.extend({
   data() {
@@ -55,7 +55,10 @@ export default Vue.extend({
     async submitContactForm() {
       this.sent = true;
       const payload: ContactFormMessage = this.form;
-      await db.collection("messages").doc().set(payload);
+      await db
+        .collection("messages")
+        .doc()
+        .set(payload);
     }
   }
 });
