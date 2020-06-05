@@ -17,9 +17,7 @@
         <b-form-input
           id="input-method"
           v-model="form.methodData"
-          :placeholder="
-            form.method === 'Phone' ? '(###) ###-####' : 'something@domain.com'
-          "
+          :placeholder="methodPlaceholder"
         />
       </b-input-group>
 
@@ -50,6 +48,20 @@ export default Vue.extend({
       },
       sent: false
     };
+  },
+  computed: {
+    methodPlaceholder() {
+      const method: string | null = this.form.method;
+
+      switch (method) {
+        case "Phone":
+          return "(###) ###-####";
+        case "Email":
+          return "something@domain.com";
+        default:
+          return "Please select a method";
+      }
+    }
   },
   methods: {
     async submitContactForm() {

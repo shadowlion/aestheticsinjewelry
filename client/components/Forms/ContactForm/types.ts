@@ -1,6 +1,6 @@
 export interface ContactFormMessage {
-  name: null;
-  method: null;
-  methodData: null;
-  message: null;
+  name: string | null;
+  method: "Phone" | "Email" | null;
+  methodData: string | null;
+  message: string | null;
 }
