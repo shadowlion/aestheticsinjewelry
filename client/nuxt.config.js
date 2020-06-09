@@ -47,7 +47,17 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     "bootstrap-vue/nuxt"
-  ]
+  ],
+  /*
+   ** Environment Variables
+   */
+  env: {
+    FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
+    FIREBASE_AUTH_DOMAIN: process.env.FIREBASE_AUTH_DOMAIN,
+    FIREBASE_DB_URL: process.env.FIREBASE_DB_URL,
+    FIREBASE_PROJECT_ID: process.env.FIREBASE_PROJECT_ID,
+    FIREBASE_APP_ID: process.env.FIREBASE_APP_ID
+  }
   /*
    ** Build configuration
    */
