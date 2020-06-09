@@ -33,6 +33,7 @@ export default {
    */
   buildModules: [
     "@nuxt/typescript-build",
+    "@nuxtjs/dotenv",
     [
       "@nuxtjs/google-analytics",
       {
