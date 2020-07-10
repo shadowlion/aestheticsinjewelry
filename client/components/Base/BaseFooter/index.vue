@@ -18,14 +18,18 @@
           </a>
 
           <address>
-            M-F: 10:00am - 5:30pm
+            M-F: 10:00am - 4:00pm
             <br />
-            Sat: 11:00am - 3:00pm
+            Sat: 10:00am - 3:00pm
             <br />
             Sun: Closed
           </address>
 
           <address>
+            <p>
+              Contact us ahead of time for an appointment so we can give you
+              privacy/social distancing:
+            </p>
             Phone: <a href="tel:5025892728">(502)589-2728</a>
             <br />
             Email:
