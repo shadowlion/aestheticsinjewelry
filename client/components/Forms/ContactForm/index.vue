@@ -2,7 +2,7 @@
   <div>
     <b-form v-if="!sent" @submit.prevent="submitContactForm">
       <b-form-group label="Name:" label-for="input-name">
-        <b-form-input id="input-name" v-model="form.name" />
+        <b-form-input id="input-name" v-model="form.name" required />
       </b-form-group>
 
       <label for="input-method">Preferred Contact Method:</label>
@@ -12,17 +12,24 @@
             v-model="form.method"
             name="input-method"
             :options="['Phone', 'Email']"
+            required
           />
         </b-input-group-prepend>
         <b-form-input
           id="input-method"
           v-model="form.methodData"
           :placeholder="methodPlaceholder"
+          required
         />
       </b-input-group>
 
       <b-form-group label="Message:" label-for="input-message">
-        <b-form-textarea id="input-message" v-model="form.message" rows="3" />
+        <b-form-textarea
+          id="input-message"
+          v-model="form.message"
+          rows="3"
+          required
+        />
       </b-form-group>
 
       <button class="btn btn-primary" type="submit">Submit</button>
@@ -34,8 +41,8 @@
 
 <script lang="ts">
 import Vue from "vue";
+import { db } from "../../../plugins/firebase";
 import { ContactFormMessage } from "./types";
-import { db } from "@/plugins/firebase";
 
 export default Vue.extend({
   data() {
@@ -44,32 +51,29 @@ export default Vue.extend({
         name: null,
         method: null,
         methodData: null,
-        message: null
+        message: null,
       },
-      sent: false
+      sent: false,
     };
   },
   computed: {
     methodPlaceholder() {
       switch (this.form.method as string | null) {
         case "Phone":
-          return "(###) ###-####";
+          return "Please enter a phone number";
         case "Email":
-          return "something@domain.com";
+          return "Please enter an email address";
         default:
           return "Please select a method";
       }
-    }
+    },
   },
   methods: {
     async submitContactForm() {
       this.sent = true;
       const payload: ContactFormMessage = this.form;
-      await db
-        .collection("messages")
-        .doc()
-        .set(payload);
-    }
-  }
+      await db.collection("messages").doc().set(payload);
+    },
+  },
 });
 </script>

@@ -6,19 +6,6 @@
   </main>
 </template>
 
-<script lang="ts">
-import Vue from "vue";
-import BaseHeader from "@/components/Base/BaseHeader/index.vue";
-import BaseFooter from "@/components/Base/BaseFooter/index.vue";
-
-export default Vue.extend({
-  components: {
-    BaseHeader,
-    BaseFooter
-  }
-});
-</script>
-
 <style>
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
