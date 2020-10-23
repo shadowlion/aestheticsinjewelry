@@ -22,13 +22,12 @@
     "@nuxt/typescript-runtime": "^1.0.0",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
-    "firebase": "^7.17.1",
+    "firebase": "^7.24.0",
     "nuxt": "^2.14.0"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.0",
     "@nuxt/typescript-build": "^2.0.2",
-    "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-config-typescript": "^3.0.0",
     "@nuxtjs/eslint-module": "^2.0.0",

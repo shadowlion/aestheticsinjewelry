@@ -18,6 +18,8 @@
           </a>
 
           <address>
+            <span class="text-muted">Temporary Hours (due to COVID-19):</span>
+            <br />
             M-F: 10:00am - 4:00pm
             <br />
             Sat: 10:00am - 3:00pm
@@ -68,6 +70,6 @@ import Vue from "vue";
 import ContactForm from "@/components/Forms/ContactForm/index.vue";
 
 export default Vue.extend({
-  components: { ContactForm }
+  components: { ContactForm },
 });
 </script>

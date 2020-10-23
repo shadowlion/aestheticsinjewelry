@@ -1,10 +1,5 @@
 export default {
   /*
-   ** Nuxt rendering mode
-   ** See https://nuxtjs.org/api/configuration-mode
-   */
-  mode: "universal",
-  /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
@@ -45,7 +40,6 @@ export default {
    */
   buildModules: [
     "@nuxt/typescript-build",
-    "@nuxtjs/dotenv",
     [
       "@nuxtjs/google-analytics",
       {
@@ -60,16 +54,6 @@ export default {
     // Doc: https://bootstrap-vue.js.org
     "bootstrap-vue/nuxt",
   ],
-  /*
-   ** Environment Variables
-   */
-  env: {
-    FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
-    FIREBASE_AUTH_DOMAIN: process.env.FIREBASE_AUTH_DOMAIN,
-    FIREBASE_DB_URL: process.env.FIREBASE_DB_URL,
-    FIREBASE_PROJECT_ID: process.env.FIREBASE_PROJECT_ID,
-    FIREBASE_APP_ID: process.env.FIREBASE_APP_ID,
-  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
