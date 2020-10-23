@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Aesthetics in Jewelry Site",
   "scripts": {
+    "install": "cd client && npm i && cd .. && cd functions && npm i",
+    "dev": "cd client && npm run dev",
     "deploy:frontend": "cd client && npm i && npm run generate"
   },
   "repository": {
