@@ -2,11 +2,13 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.FIREBASE_DB_URL,
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  appId: process.env.FIREBASE_APP_ID,
+  apiKey: "AIzaSyDiM5aq6fQ0tlOAx712b10s7hyv5EWEFFU",
+  authDomain: "aesthetics-in-jewelry.firebaseapp.com",
+  databaseURL: "https://aesthetics-in-jewelry.firebaseio.com",
+  projectId: "aesthetics-in-jewelry",
+  storageBucket: "aesthetics-in-jewelry.appspot.com",
+  messagingSenderId: "636659443278",
+  appId: "1:636659443278:web:84b6ee71d95ac57660451f"
 };
 
 if (!firebase.apps.length) {
