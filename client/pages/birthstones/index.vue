@@ -44,9 +44,9 @@ export default Vue.extend({
         { month: "September", stone: "Sapphire" },
         { month: "October", stone: "Opal/Tourmaline" },
         { month: "November", stone: "Citrine" },
-        { month: "December", stone: "Blue Zirconia" }
-      ]
+        { month: "December", stone: "Blue Zirconia" },
+      ],
     };
-  }
+  },
 });
 </script>

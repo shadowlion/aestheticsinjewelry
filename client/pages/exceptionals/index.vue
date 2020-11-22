@@ -41,9 +41,9 @@ export default Vue.extend({
         { title: "Yellow and White Diamond Ring" },
         { title: "Round Sapphire and Diamond Ring" },
         { title: "Emerald and Diamond Ring" },
-        { title: "Tri-Color Gold and Diamond Ring" }
-      ]
+        { title: "Tri-Color Gold and Diamond Ring" },
+      ],
     };
-  }
+  },
 });
 </script>
