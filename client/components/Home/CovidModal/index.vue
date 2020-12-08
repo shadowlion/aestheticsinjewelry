@@ -16,7 +16,10 @@
       what time you would like to come in to look for a Christmas gift or drop
       off and pick up repairs.
     </p>
-    <p>Our normal hours are 10:00am to 4:00pm, Monday through Saturday.</p>
+    <p>
+      Our normal hours are 10:00am to 4:00pm, Monday through Saturday, and
+      12:00pm to 3:00pm Sunday.
+    </p>
     <p>
       During the holidays, we're happy to be there for you after hours, but
       please schedule an appointment with us before by calling

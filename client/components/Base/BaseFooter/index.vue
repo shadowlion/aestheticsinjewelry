@@ -24,7 +24,7 @@
             <br />
             Sat: 10:00am - 3:00pm
             <br />
-            Sun: Closed
+            Sun: 12:00pm - 3:00pm
           </address>
 
           <address>
@@ -58,18 +58,9 @@
         </div>
         <div class="col-md-6">
           <h2>Or Contact Us Here:</h2>
-          <contact-form></contact-form>
+          <ContactForm />
         </div>
       </div>
     </div>
   </footer>
 </template>
-
-<script lang="ts">
-import Vue from "vue";
-import ContactForm from "@/components/Forms/ContactForm/index.vue";
-
-export default Vue.extend({
-  components: { ContactForm },
-});
-</script>
