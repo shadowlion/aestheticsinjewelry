@@ -24,7 +24,7 @@
             <br />
             Sat: 10:00am - 3:00pm
             <br />
-            Sun: 12:00pm - 3:00pm
+            Sun: Closed
           </address>
 
           <address>
