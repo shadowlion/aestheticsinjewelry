@@ -10,22 +10,23 @@
     hide-header-close
     hide-footer
   >
-    <p>Our Holiday Hours will start Friday, November 27, 2020.</p>
     <p>
-      Due to COVID-19, we are asking everyone to call the store and let us know
-      what time you would like to come in to look for a Christmas gift or drop
-      off and pick up repairs.
+      If you're looking for a gift, we have many beautiful jewelry pieces in a
+      variety of price ranges.
     </p>
     <p>
-      Our normal hours are 10:00am to 4:00pm, Monday through Saturday, and
-      12:00pm to 3:00pm Sunday.
+      We have two more shopping days until Christmas! Please come by and see us
+      or give us a call if you prefer an appointment. We are open from 10:00am
+      to 4:00pm both Wednesday, December 23rd and Thursday, December 24th.
     </p>
     <p>
-      During the holidays, we're happy to be there for you after hours, but
-      please schedule an appointment with us before by calling
+      During the holidays, we offer pickup and delivery services, and we're
+      happy to be there for you after hours, but please schedule an appointment
+      with us before by calling
       <a href="tel:5025892728">(502) 589-2728</a> or text Jimmy at
       <a href="tel:5025589205">(502) 558-9205</a>.
     </p>
+    <p>Happy Holidays!</p>
     <button
       class="btn btn-primary float-right"
       @click="$bvModal.hide('covid-modal')"
