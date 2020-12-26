@@ -10,7 +10,7 @@
     hide-header-close
     hide-footer
   >
-    <p>
+    <!-- <p>
       If you're looking for a gift, we have many beautiful jewelry pieces in a
       variety of price ranges.
     </p>
@@ -25,7 +25,14 @@
       with us before by calling
       <a href="tel:5025892728">(502) 589-2728</a> or text Jimmy at
       <a href="tel:5025589205">(502) 558-9205</a>.
+    </p> -->
+    <p>We have returned to our normal hours of operation:</p>
+    <p>
+      M-F: 10:00am - 4:00pm
+      <br />
+      Saturdays: 10:00am - 3:00pm
     </p>
+    <p>We will also be open on New Year's Eve, 10:00am - 2:00pm.</p>
     <p>Happy Holidays!</p>
     <button
       class="btn btn-primary float-right"
