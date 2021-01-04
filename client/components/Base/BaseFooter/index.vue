@@ -26,8 +26,6 @@
             <br />
             Sun: Closed
             <br />
-            <br />
-            New Years Eve: 10:00am - 2:00pm
           </address>
 
           <address>
@@ -35,7 +33,7 @@
               Contact us ahead of time for an appointment so we can give you
               privacy/social distancing:
             </p>
-            Phone: <a href="tel:5025892728">(502)589-2728</a>
+            Phone: <a href="tel:5025892728">(502) 589-2728</a>
             <br />
             Email:
             <a href="mailto:info@aestheticsinjewelry.com">
