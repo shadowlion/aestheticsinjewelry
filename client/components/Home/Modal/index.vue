@@ -1,7 +1,7 @@
 <template>
   <b-modal
-    id="covid-modal"
-    title="Please Note!"
+    id="modal"
+    title="Flash Sale!"
     centered
     visible
     ok-only
@@ -26,18 +26,19 @@
       <a href="tel:5025892728">(502) 589-2728</a> or text Jimmy at
       <a href="tel:5025589205">(502) 558-9205</a>.
     </p> -->
-    <p>We have returned to our normal hours of operation:</p>
+    <!-- <p>We have returned to our normal hours of operation:</p>
     <p>
       M-F: 10:00am - 4:00pm
       <br />
       Saturdays: 10:00am - 3:00pm
     </p>
     <p>We will also be open on New Year's Eve, 10:00am - 2:00pm.</p>
-    <p>Happy Holidays!</p>
-    <button
-      class="btn btn-primary float-right"
-      @click="$bvModal.hide('covid-modal')"
-    >
+    <p>Happy Holidays!</p> -->
+    <p>Come join us on Feb 13th, 2021!</p>
+    <p>10:00am - 3:00pm</p>
+    <p>35% to 50% off</p>
+    <p>No trade-ins, all sales final</p>
+    <button class="btn btn-primary float-right" @click="$bvModal.hide('modal')">
       Okay
     </button>
   </b-modal>
