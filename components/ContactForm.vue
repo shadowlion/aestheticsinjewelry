@@ -7,6 +7,7 @@
       data-netlify-honeypot="bot-field"
     >
       <input type="hidden" name="contact_us" value="contact_us" />
+
       <b-form-group label="Name:" label-for="input-name">
         <b-form-input id="input-name" name="name" required />
       </b-form-group>
@@ -15,6 +16,7 @@
       <b-input-group class="pb-3">
         <b-input-group-prepend is-text>
           <b-form-radio-group
+            id="input-method-type"
             name="method"
             :options="['Phone', 'Email']"
             required
