@@ -35,14 +35,16 @@
       <button class="btn btn-primary" type="submit">Submit</button>
     </b-form>
 
-    <p v-else>Sent!</p>
+    <p v-else>
+      Thanks for your submission! We'll get back to you as soon as possible.
+    </p>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import { db } from "../../../plugins/firebase";
-import { ContactFormMessage } from "./types";
+// import { db } from "../../../plugins/firebase";
+// import { ContactFormMessage } from "./types";
 
 export default Vue.extend({
   data() {
@@ -69,10 +71,11 @@ export default Vue.extend({
     },
   },
   methods: {
-    async submitContactForm() {
+    submitContactForm() {
       this.sent = true;
-      const payload: ContactFormMessage = this.form;
-      await db.collection("messages").doc().set(payload);
+      const payload = this.form;
+      // await db.collection("messages").doc().set(payload);
+      return payload;
     },
   },
 });
