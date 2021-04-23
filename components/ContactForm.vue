@@ -1,39 +1,39 @@
 <template>
   <div>
-    <b-form v-if="!sent" @submit.prevent="submitContactForm">
+    <form
+      v-if="!sent"
+      method="POST"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <input type="hidden" name="contact_us" value="contact_us" />
       <b-form-group label="Name:" label-for="input-name">
-        <b-form-input id="input-name" v-model="form.name" required />
+        <b-form-input id="input-name" name="name" required />
       </b-form-group>
 
       <label for="input-method">Preferred Contact Method:</label>
       <b-input-group class="pb-3">
         <b-input-group-prepend is-text>
           <b-form-radio-group
-            v-model="form.method"
-            name="input-method"
+            name="method"
             :options="['Phone', 'Email']"
             required
           />
         </b-input-group-prepend>
         <b-form-input
           id="input-method"
-          v-model="form.methodData"
+          name="methodData"
           :placeholder="methodPlaceholder"
           required
         />
       </b-input-group>
 
       <b-form-group label="Message:" label-for="input-message">
-        <b-form-textarea
-          id="input-message"
-          v-model="form.message"
-          rows="3"
-          required
-        />
+        <b-form-textarea id="input-message" name="message" rows="3" required />
       </b-form-group>
 
       <button class="btn btn-primary" type="submit">Submit</button>
-    </b-form>
+    </form>
 
     <p v-else>
       Thanks for your submission! We'll get back to you as soon as possible.
@@ -43,8 +43,6 @@
 
 <script lang="ts">
 import Vue from "vue";
-// import { db } from "../../../plugins/firebase";
-// import { ContactFormMessage } from "./types";
 
 export default Vue.extend({
   data() {
@@ -70,13 +68,13 @@ export default Vue.extend({
       }
     },
   },
-  methods: {
-    submitContactForm() {
-      this.sent = true;
-      const payload = this.form;
-      // await db.collection("messages").doc().set(payload);
-      return payload;
-    },
-  },
+  // methods: {
+  //   submitContactForm(e: Event) {
+  //     this.sent = true;
+  //     const { name, method, methodData, message } = Object.fromEntries(
+  //       new FormData(e.target)
+  //     );
+  //   },
+  // },
 });
 </script>
