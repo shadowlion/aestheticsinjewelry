@@ -60,6 +60,10 @@
             >
               Instagram
             </a>
+            <br />
+            <a href="https://g.page/aestheticsinjewelry" target="_blank">
+              Our Business Page
+            </a>
           </address>
         </div>
         <div class="col-md-6">

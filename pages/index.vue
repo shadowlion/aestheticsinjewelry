@@ -1,11 +1,16 @@
 <template>
   <div>
-    <b-carousel :interval="4000" controls class="container" :img-height="480">
+    <b-carousel
+      :interval="4000"
+      controls
+      class="container pb-2 pb-md-5"
+      :img-height="480"
+    >
       <b-carousel-slide :img-src="require('@/assets/carousel-1.jpg')" />
       <b-carousel-slide :img-src="require('@/assets/carousel-2.png')" />
       <b-carousel-slide :img-src="require('@/assets/carousel-3.png')" />
     </b-carousel>
-    <section class="bg-light py-5">
+    <section class="bg-light py-2 py-md-5">
       <div class="container">
         <p>
           Jewelry is a beautiful way to tell someone special that you love them.

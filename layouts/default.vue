@@ -1,11 +1,10 @@
 <template>
   <div>
-    <!-- <DesktopHeader /> -->
-    <MobileHeader />
+    <LazyHeader />
     <main>
       <Nuxt />
     </main>
-    <Footer />
+    <LazyFooter />
   </div>
 </template>
 
