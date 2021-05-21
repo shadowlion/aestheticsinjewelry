@@ -1,5 +1,5 @@
 <template>
-  <header class="d-block d-md-none">
+  <header class="d-md-flex justify-content-center">
     <BNavbar toggleable="md" class="pb-md-4">
       <BNavbarBrand href="#">Aesthetics in Jewelry</BNavbarBrand>
       <BNavbarToggle target="nav-collapse"></BNavbarToggle>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <DesktopHeader />
+    <!-- <DesktopHeader /> -->
     <MobileHeader />
     <main>
       <Nuxt />
