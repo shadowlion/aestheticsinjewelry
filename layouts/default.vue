@@ -20,6 +20,12 @@
           >
             Facebook
           </a>
+          <a
+            href="https://www.instagram.com/aestheticsinjewel/"
+            target="_blank"
+          >
+            Instagram
+          </a>
         </div>
         <hr />
         <div class="d-flex justify-content-center">
@@ -37,11 +43,9 @@
         </div>
       </div>
       <div class="d-block d-md-none">
-        <b-navbar toggleable="md" class="pb-4">
+        <b-navbar toggleable="md" class="pb-md-4">
           <b-navbar-brand href="#">Aesthetics in Jewelry</b-navbar-brand>
-
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
           <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav>
               <a href="/" class="nav-item">Home</a>
@@ -65,6 +69,12 @@
                 target="_blank"
               >
                 Facebook
+              </a>
+              <a
+                href="https://www.instagram.com/aestheticsinjewel/"
+                target="_blank"
+              >
+                Instagram
               </a>
             </b-navbar-nav>
           </b-collapse>
@@ -127,6 +137,13 @@
                 target="_blank"
               >
                 Facebook
+              </a>
+              <br />
+              <a
+                href="https://www.instagram.com/aestheticsinjewel/"
+                target="_blank"
+              >
+                Instagram
               </a>
             </address>
           </div>
