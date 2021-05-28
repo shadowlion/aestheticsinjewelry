@@ -9,8 +9,8 @@ const VisitUsPage = () => {
         <meta name="description" content="Ballroom East Dance Studio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <article id="visit" className="container py-5">
-        <h1 className="text-center pb-5">Visit Us!</h1>
+      <article id="visit" className="container py-5 text-center">
+        <h1 className="pb-5">Visit Us!</h1>
         <Image
           src="/map.jpg"
           alt="Location of Aesthetics in Jewelry business"
