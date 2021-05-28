@@ -34,6 +34,7 @@ const Footer = () => {
             {/* <ContactForm /> */}
           </div>
         </div>
+        <hr />
         <Nav className="flex-column flex-md-row justify-content-md-center">
           <Nav.Item>
             <span className="nav-link">
