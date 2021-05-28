@@ -1,16 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-// import Header from "../components/Header";
-// import Footer from "../components/Footer";
+import Layout from "../components/Layout";
 
 const App = ({ Component, pageProps }) => {
   return (
-    <>
-      {/* <Header /> */}
-      <main>
-        <Component {...pageProps} />
-      </main>
-      {/* <Footer /> */}
-    </>
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
   );
 };
 
