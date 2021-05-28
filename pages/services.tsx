@@ -12,7 +12,7 @@ const ServicesPage = () => {
         <meta name="description" content="Ballroom East Dance Studio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <article className="container py-5">
+      <article id="services" className="container py-5">
         <h1 className="text-center pb-3">Services Provided</h1>
 
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">

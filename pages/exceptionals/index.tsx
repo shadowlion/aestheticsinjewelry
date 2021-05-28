@@ -8,7 +8,7 @@ const ExceptionalsPage = () => {
         <meta name="description" content="Ballroom East Dance Studio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <article id="home">
+      <article id="exceptionals">
         <h1>Exceptionals</h1>
       </article>
     </>

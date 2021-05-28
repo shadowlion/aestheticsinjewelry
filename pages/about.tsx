@@ -8,7 +8,7 @@ const AboutPage = () => {
         <meta name="description" content="Ballroom East Dance Studio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <article id="home" className="container py-5">
+      <article id="about" className="container py-5">
         <h1 className="text-center pb-4">About Us</h1>
         <p>
           Aesthetics in Jewelry was founded in 1976 by James Jackson (Jimmy the
