@@ -1,3 +1,5 @@
+import Nav from "react-bootstrap/Nav";
+
 const Footer = () => {
   return (
     <footer className="bg-light py-5">
@@ -26,52 +28,65 @@ const Footer = () => {
               Sun: Closed
               <br />
             </address>
-
-            <address>
-              <p>
-                Contact us ahead of time for an appointment so we can give you
-                privacy/social distancing:
-              </p>
-              Phone: <a href="tel:5025892728">(502) 589-2728</a>
-              <br />
-              Email:
-              <a href="mailto:info@aestheticsinjewelry.com">
-                info@aestheticsinjewelry.com
-              </a>
-              <br />
-              Fax: (502) 589-0209
-              <br />
-              <a
-                href="https://www.youtube.com/channel/UCnsJN9wV4YbptB8NmlXFVaQ"
-                target="_blank"
-              >
-                Youtube
-              </a>
-              <br />
-              <a
-                href="https://www.facebook.com/aestheticsinjewelry/"
-                target="_blank"
-              >
-                Facebook
-              </a>
-              <br />
-              <a
-                href="https://www.instagram.com/aestheticsinjewel/"
-                target="_blank"
-              >
-                Instagram
-              </a>
-              <br />
-              <a href="https://g.page/aestheticsinjewelry" target="_blank">
-                Our Business Page
-              </a>
-            </address>
           </div>
           <div className="col-md-6">
             <h2>Or Contact Us Here:</h2>
             {/* <ContactForm /> */}
           </div>
         </div>
+        <Nav className="flex-column flex-md-row justify-content-md-center">
+          <Nav.Item>
+            <span className="nav-link">
+              <a href="tel:5025892728">(502) 589-2728</a>
+            </span>
+          </Nav.Item>
+          <Nav.Item>
+            <span className="nav-link">
+              <a href="mailto:info@aestheticsinjewelry.com">
+                info@aestheticsinjewelry.com
+              </a>
+            </span>
+          </Nav.Item>
+          <Nav.Item>
+            <span className="nav-link">Fax: (502) 589-0209</span>
+          </Nav.Item>
+          <Nav.Item>
+            <a
+              href="https://www.youtube.com/channel/UCnsJN9wV4YbptB8NmlXFVaQ"
+              target="_blank"
+              className="nav-link"
+            >
+              Youtube
+            </a>
+          </Nav.Item>
+          <Nav.Item>
+            <a
+              href="https://www.facebook.com/aestheticsinjewelry/"
+              target="_blank"
+              className="nav-link"
+            >
+              Facebook
+            </a>
+          </Nav.Item>
+          <Nav.Item>
+            <a
+              href="https://www.instagram.com/aestheticsinjewel/"
+              target="_blank"
+              className="nav-link"
+            >
+              Instagram
+            </a>
+          </Nav.Item>
+          <Nav.Item>
+            <a
+              href="https://g.page/aestheticsinjewelry"
+              target="_blank"
+              className="nav-link"
+            >
+              Our Business Page
+            </a>
+          </Nav.Item>
+        </Nav>
       </div>
     </footer>
   );
