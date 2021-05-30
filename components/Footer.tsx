@@ -88,6 +88,10 @@ const Footer = () => {
             </a>
           </Nav.Item>
         </Nav>
+        <hr />
+        <div className="text-center">
+          &#169; {new Date().getFullYear()} Aesthetics in Jewelry
+        </div>
       </div>
     </footer>
   );
