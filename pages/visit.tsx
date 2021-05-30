@@ -5,8 +5,11 @@ const VisitUsPage = () => {
   return (
     <>
       <Head>
-        <title>Visit Us | Ballroom East</title>
-        <meta name="description" content="Ballroom East Dance Studio" />
+        <title>Visit Us | Aesthetics inJewelry</title>
+        <meta
+          name="description"
+          content="Aesthetics in Jewelry - Visit Us Page"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <article id="visit" className="container py-5 text-center">

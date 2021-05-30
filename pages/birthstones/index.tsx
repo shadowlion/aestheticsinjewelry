@@ -7,8 +7,11 @@ const BirthstonesPage = () => {
   return (
     <>
       <Head>
-        <title>Birthstones | Ballroom East</title>
-        <meta name="description" content="Ballroom East Dance Studio" />
+        <title>Birthstones | Aesthetics in Jewelry</title>
+        <meta
+          name="description"
+          content="Aesthetics in Jewelry - Birthstones Page"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <article id="birthstones" className="container py-5">

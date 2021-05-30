@@ -47,7 +47,7 @@ const HomePage = () => {
     <>
       <Head>
         <title>Home | Aesthetics in Jewelry</title>
-        <meta name="description" content="Ballroom East Dance Studio" />
+        <meta name="description" content="Aesthetics in Jewelry - Home Page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <article id="home" className="py-5">

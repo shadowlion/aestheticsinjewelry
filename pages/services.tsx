@@ -8,8 +8,11 @@ const ServicesPage = () => {
   return (
     <>
       <Head>
-        <title>Services | Ballroom East</title>
-        <meta name="description" content="Ballroom East Dance Studio" />
+        <title>Services | Aesthetics in Jewelry</title>
+        <meta
+          name="description"
+          content="Aesthetics in Jewelry - Services Page"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <article id="services" className="container py-5">

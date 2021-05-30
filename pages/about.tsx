@@ -4,8 +4,11 @@ const AboutPage = () => {
   return (
     <>
       <Head>
-        <title>About Us | Ballroom East</title>
-        <meta name="description" content="Ballroom East Dance Studio" />
+        <title>About Us | Aesthetics in Jewelry</title>
+        <meta
+          name="description"
+          content="Aesthetics in Jewelry - About Us Page"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <article id="about" className="container py-5">
