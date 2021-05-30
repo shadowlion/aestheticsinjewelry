@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import Carousel from "react-bootstrap/Carousel";
 import Card from "react-bootstrap/Card";
 
@@ -82,11 +81,10 @@ const HomePage = () => {
             the investment today.
           </div>
         </section>
-
         <section className="container pt-5">
           <div className="row">
             {services.map((service) => (
-              <div className="col-12 col-md-4" key={service.linkUrl}>
+              <div className="col-12 col-md-4 mb-3" key={service.linkUrl}>
                 <Card>
                   <Card.Img src={`/${service.img}`} alt={service.linkText} />
                   <Card.Body>
