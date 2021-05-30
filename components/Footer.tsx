@@ -1,4 +1,5 @@
 import Nav from "react-bootstrap/Nav";
+import ContactForm from "./ContactForm";
 
 const Footer = () => {
   return (
@@ -31,7 +32,7 @@ const Footer = () => {
           </div>
           <div className="col-md-6">
             <h2>Or Contact Us Here:</h2>
-            {/* <ContactForm /> */}
+            <ContactForm />
           </div>
         </div>
         <hr />
