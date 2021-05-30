@@ -93,7 +93,12 @@ const HomePage = () => {
                     <Card.Title>{service.title}</Card.Title>
                     <Card.Text>{service.text}</Card.Text>
                     <Card.Text>
-                      <Link href={service.linkUrl}>{service.linkText}</Link>
+                      <Card.Link
+                        href={service.linkUrl}
+                        className="stretched-link"
+                      >
+                        {service.linkText}
+                      </Card.Link>
                     </Card.Text>
                   </Card.Body>
                 </Card>
