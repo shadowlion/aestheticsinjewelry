@@ -19,8 +19,17 @@ const ContactForm = () => {
     formState: { errors },
   } = useForm<Inputs>();
 
-  const onSubmit: SubmitHandler<Inputs> = () =>
-    setFormSubmitted(!formSubmitted);
+  const onSubmit: SubmitHandler<Inputs> = async (data) => {
+    try {
+      setFormSubmitted(!formSubmitted);
+      await fetch("/api/twilio", {
+        method: "POST",
+        body: JSON.stringify(data),
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
   return (
     <>
