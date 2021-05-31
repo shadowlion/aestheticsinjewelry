@@ -22,7 +22,7 @@ const ContactForm = () => {
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
     try {
       setFormSubmitted(!formSubmitted);
-      await fetch("/api/twilio", {
+      await fetch("/api/sendgrid", {
         method: "POST",
         body: JSON.stringify(data),
       });
