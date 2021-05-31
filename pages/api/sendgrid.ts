@@ -8,18 +8,8 @@ export default async function handler(
   if (req.method === "POST") {
     try {
       const templateId = process.env.SENDGRID_TEMPLATE_ID;
-      const data: RequestBody = req.body;
-      const { name, preferredMethod, methodInfo, message } = data;
-
-      const requestPayload: RequestBody = {
-        name,
-        preferredMethod,
-        methodInfo,
-        message,
-      };
-
-      await sendEmail(templateId, requestPayload);
-
+      const payload: RequestBody = JSON.parse(req.body);
+      await sendEmail(templateId, payload);
       res.status(200).json({ message: "OK" });
     } catch (error) {
       res.status(400).json({ message: error });
