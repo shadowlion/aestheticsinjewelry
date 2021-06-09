@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
         <Head>
           <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=${NEXT_PUBLIC_GOOGLE_ANALYTICS}"
+            src={`https://www.googletagmanager.com/gtag/js?id=${NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
           ></script>
           <script
             async
@@ -17,7 +17,7 @@ export default class MyDocument extends Document {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
 
-              gtag('config', ${NEXT_PUBLIC_GOOGLE_ANALYTICS});`,
+              gtag('config', '${NEXT_PUBLIC_GOOGLE_ANALYTICS}');`,
             }}
           />
         </Head>
