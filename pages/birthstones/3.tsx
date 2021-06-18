@@ -28,10 +28,10 @@ const BirthstonePage = () => {
           <p>
             Aquamarine, the birthstone for March, is also the alternative gift
             for the sixteenth and traditional gift of the eighteenth wedding
-            anniversaries. Aquamarine is named for its color (Latin for "water
-            of the sea"). It would be clear Beryl (aluminum beryllium silicate)
-            without traces of Iron introduced into the crystal lattice
-            structure.
+            anniversaries. Aquamarine is named for its color (Latin for
+            &quot;water of the sea&quot;). It would be clear Beryl (aluminum
+            beryllium silicate) without traces of Iron introduced into the
+            crystal lattice structure.
           </p>
           <p>
             Gem quality aquamarine grows in pegmatites, where crystals can be
@@ -45,7 +45,7 @@ const BirthstonePage = () => {
           </p>
           <p>
             Nearly all blue is heat treated to remove the brown-yellow color
-            component. Aquamarine's most valuable color is the moderately
+            component. Aquamarine&apos;s most valuable color is the moderately
             strong, medium-dark blue to slightly greenish blue.
           </p>
         </section>

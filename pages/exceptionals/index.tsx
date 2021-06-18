@@ -28,14 +28,14 @@ const ExceptionalsPage = () => {
           <p>
             We strive to provide an extensive selection of jewelry that
             maintains a high degree of beauty, quality and workmanship no matter
-            what price you're looking for. However, regardless of the price
+            what price you&apos;re looking for. However, regardless of the price
             point, some jewelry is so remarkable that it can only be called
             Exceptional.
           </p>
           <div className="row">
             {exceptionals.map((exceptional, index) => {
               return (
-                <div className="col-12 col-md-4 mb-3">
+                <div className="col-12 col-md-4 mb-3" key={index}>
                   <Card>
                     <Card.Img
                       src={`/exceptional-${index + 1}.png`}

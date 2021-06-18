@@ -91,7 +91,7 @@ const ContactForm = () => {
           </Button>
         </Form>
       ) : (
-        <p>Thanks! We'll get back to you as soon as we can.</p>
+        <p>Thanks! We&apos;ll get back to you as soon as we can.</p>
       )}
     </>
   );

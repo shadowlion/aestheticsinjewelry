@@ -48,7 +48,7 @@ const BirthstonePage = () => {
           <p>
             Any time someone purchases a diamond or any gemstone, any treatments
             or special handling requires meats or whether its natural or created
-            should be disclosed before it's sold.
+            should be disclosed before it&apos;s sold.
           </p>
         </section>
       </article>

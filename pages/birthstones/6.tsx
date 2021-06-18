@@ -74,12 +74,12 @@ const BirthstonePage = () => {
           <p>
             In 1987 a major find of Alexandrite was found in the Minas Gerais,
             Brazil. This region has produced the finest gems available since the
-            late 1800's.
+            late 1800&apos;s.
           </p>
           <p>
             Alexandrite is sensitive to heat, alkalines and knocks. It is fairly
-            scratch resistant with a Moh's hardness of eight. It is not usually
-            enhanced and can be ultrasonic or steam cleaned. This makes
+            scratch resistant with a Moh&apos;s hardness of eight. It is not
+            usually enhanced and can be ultrasonic or steam cleaned. This makes
             Alexandrite one of the more everyday wearable stones for
             connoisseurs and collectors.
           </p>

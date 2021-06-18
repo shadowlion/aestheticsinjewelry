@@ -1,18 +1,19 @@
 import Head from "next/head";
+import Image from "react-bootstrap/Image";
 import Carousel from "react-bootstrap/Carousel";
 import Card from "react-bootstrap/Card";
 
 const carousel = [
   {
-    src: "carousel-1.jpg",
+    src: "/carousel-1.jpg",
     altText: "Carousel 1 image",
   },
   {
-    src: "carousel-2.png",
+    src: "/carousel-2.png",
     altText: "Carousel 3 image",
   },
   {
-    src: "carousel-3.png",
+    src: "/carousel-3.png",
     altText: "Carousel 3 image",
   },
 ];
@@ -51,11 +52,11 @@ const HomePage = () => {
       </Head>
       <article id="home" className="py-5">
         <Carousel className="container mb-5">
-          {carousel.map((image) => (
-            <Carousel.Item key={image.src}>
-              <img
+          {carousel.map((image, index) => (
+            <Carousel.Item key={index}>
+              <Image
                 className="d-block w-100"
-                src={`/${image.src}`}
+                src={image.src}
                 alt={image.altText}
               />
             </Carousel.Item>
@@ -76,9 +77,9 @@ const HomePage = () => {
             our collection. Take pride in owning an exquisite piece that’s made
             to last for a lifetime. Shopping for high quality jewelry has never
             been so simple or so rewarding. Contact us at{" "}
-            <a href="tel:502-589-2728">(502) 589-2728</a> and we'll be happy to
-            answer any questions or comments about our superior collection. Make
-            the investment today.
+            <a href="tel:502-589-2728">(502) 589-2728</a> and we&apos;ll be
+            happy to answer any questions or comments about our superior
+            collection. Make the investment today.
           </div>
         </section>
         <section className="container pt-5">

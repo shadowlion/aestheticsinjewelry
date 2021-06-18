@@ -101,8 +101,8 @@ const ServicesPage = () => {
                     jewelry to keep it looking good, prevent losing stones and
                     to advise you of any repairs needed. If you notice any
                     irregularities, like catching in clothing, broken or missing
-                    stones, or bent shank, then it's time to visit Aesthetics In
-                    Jewelry.
+                    stones, or bent shank, then it&apos;s time to visit
+                    Aesthetics In Jewelry.
                   </Card.Text>
                 </Container>
               </Tab.Pane>
@@ -183,8 +183,8 @@ const ServicesPage = () => {
                     jewelry to keep it looking good, prevent losing stones and
                     to advise you of any repairs needed. If you notice any
                     irregularities, like catching in clothing, broken or missing
-                    stones, or bent shank, then it's time to visit Aesthetics In
-                    Jewelry.
+                    stones, or bent shank, then it&apos;s time to visit
+                    Aesthetics In Jewelry.
                   </Card.Text>
                 </Container>
               </Tab.Pane>
@@ -222,8 +222,8 @@ const ServicesPage = () => {
                     jewelry to keep it looking good, prevent losing stones and
                     to advise you of any repairs needed. If you notice any
                     irregularities, like catching in clothing, broken or missing
-                    stones, or bent shank, then it's time to visit Aesthetics In
-                    Jewelry.
+                    stones, or bent shank, then it&apos;s time to visit
+                    Aesthetics In Jewelry.
                   </Card.Text>
                 </Container>
               </Tab.Pane>
@@ -247,8 +247,8 @@ const ServicesPage = () => {
                     jewelry to keep it looking good, prevent losing stones and
                     to advise you of any repairs needed. If you notice any
                     irregularities, like catching in clothing, broken or missing
-                    stones, or bent shank, then it's time to visit Aesthetics In
-                    Jewelry.
+                    stones, or bent shank, then it&apos;s time to visit
+                    Aesthetics In Jewelry.
                   </Card.Text>
 
                   <Card.Title>Free Appraisals</Card.Title>

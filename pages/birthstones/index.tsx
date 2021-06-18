@@ -19,7 +19,7 @@ const BirthstonesPage = () => {
         <section>
           <div className="row">
             {birthstones.map((birthstone, index) => (
-              <div className="col-12 col-md-4 col-lg-2 mb-3">
+              <div className="col-12 col-md-4 col-lg-2 mb-3" key={index}>
                 <Card className="text-center">
                   <Card.Img src={`/stone-${index + 1}.jpg`} alt={birthstone} />
                   <Card.Title className="pt-3">

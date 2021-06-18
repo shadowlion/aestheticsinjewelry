@@ -26,7 +26,8 @@ const BirthstonePage = () => {
             </div>
           </div>
           <p>
-            Amethyst (derived from Greek as "not drunken") is purple quartz.
+            Amethyst (derived from Greek as &quot;not drunken&quot;) is purple
+            quartz.
           </p>
           <p>
             Amethyst, the birthstone for February, is also the traditional gift

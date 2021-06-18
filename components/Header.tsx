@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -8,14 +7,13 @@ const Header = () => {
     <header>
       <Navbar bg="transparent" variant="light" expand="lg">
         <Container>
-          <Navbar.Brand href="/">
-            {/* <img src="/aj-logo.png" alt="Aesthetics in Jewelry" /> */}
-            Aesthetics in Jewelry
-          </Navbar.Brand>
+          <Navbar.Brand href="/">Aesthetics in Jewelry</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Navbar.Text>Let's find you some amazing jewelry!</Navbar.Text>
+              <Navbar.Text>
+                Let&apos;s find you some amazing jewelry!
+              </Navbar.Text>
             </Nav>
             <Nav className="ml-auto">
               <Nav.Link href="/">Home</Nav.Link>
@@ -25,9 +23,6 @@ const Header = () => {
               <Nav.Link href="/services">Services</Nav.Link>
               <Nav.Link href="/visit">Visit Us</Nav.Link>
             </Nav>
-            {/* <Nav className="d-none d-lg-block">
-              <Navbar.Text>Let's find you some amazing jewelry!</Navbar.Text>
-            </Nav> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>

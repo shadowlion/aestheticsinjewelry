@@ -30,11 +30,11 @@ const AboutPage = () => {
         </p>
 
         <p>
-          While cutting gems and creating jewelry, Jim's passion grew to the
-          point of a career change. Upon choosing jewelry as his life's work, he
-          moved back to his hometown of Louisville, Kentucky. His shop was set
-          up in his mother's basement, where he did repairs and made custom
-          jewelry for local stores and personal customers.
+          While cutting gems and creating jewelry, Jim&apos;s passion grew to
+          the point of a career change. Upon choosing jewelry as his life&apos;s
+          work, he moved back to his hometown of Louisville, Kentucky. His shop
+          was set up in his mother&apos;s basement, where he did repairs and
+          made custom jewelry for local stores and personal customers.
         </p>
 
         <p>
@@ -56,8 +56,8 @@ const AboutPage = () => {
           Aesthetics is very fortunate to have a fully-equipped modern shop,
           manned by exceptional bench jewelers who make and repair jewelry with
           a high degree of perfection, and a very knowledgeable family-like
-          staff. It's as if you're in a living room with friendly people helping
-          you look through a treasure chest.
+          staff. It&apos;s as if you&apos;re in a living room with friendly
+          people helping you look through a treasure chest.
         </p>
 
         <p>
