@@ -1,6 +1,7 @@
 import Document, { Head, Main, NextScript } from "next/document";
 
 const NEXT_PUBLIC_GOOGLE_ANALYTICS = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
+
 export default class MyDocument extends Document {
   render() {
     return (
