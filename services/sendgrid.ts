@@ -18,7 +18,10 @@ export type MailComposition = {
   dynamicTemplateData: RequestBody;
 };
 
-export async function sendEmail(templateId: string, extras: RequestBody) {
+export async function sendEmail(
+  templateId: string,
+  extras: RequestBody
+): Promise<[void, Error]> {
   try {
     const dto: MailComposition = {
       to: process.env.SENDGRID_TO_EMAIL,
@@ -26,9 +29,9 @@ export async function sendEmail(templateId: string, extras: RequestBody) {
       templateId,
       dynamicTemplateData: extras,
     };
-
     await sgMail.send(dto);
+    return;
   } catch (error) {
-    throw new Error(error);
+    return [null, error];
   }
 }
