@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "react-bootstrap/Image";
 import Carousel from "react-bootstrap/Carousel";
 import Card from "react-bootstrap/Card";
+import AdModal from "../components/AdModal";
 
 const carousel = [
   {
@@ -42,6 +43,10 @@ const services = [
   },
 ];
 
+const sale = (datestring: string): boolean => {
+  return Date.parse(new Date().toString()) - Date.parse(datestring) <= 0;
+};
+
 const HomePage = () => {
   return (
     <>
@@ -50,7 +55,7 @@ const HomePage = () => {
         <meta name="description" content="Aesthetics in Jewelry - Home Page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <article id="home" className="py-5">
+      <article id="home" className="pb-5">
         <Carousel className="container mb-5">
           {carousel.map((image, index) => (
             <Carousel.Item key={index}>
@@ -106,6 +111,7 @@ const HomePage = () => {
           </div>
         </section>
       </article>
+      {sale("2021-11-28") && <AdModal />}
     </>
   );
 };

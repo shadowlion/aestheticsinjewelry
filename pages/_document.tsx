@@ -1,11 +1,11 @@
-import Document, { Head, Main, NextScript } from "next/document";
+import Document, { Head, Html, Main, NextScript } from "next/document";
 
 const NEXT_PUBLIC_GOOGLE_ANALYTICS = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
 
 export default class MyDocument extends Document {
   render() {
     return (
-      <html lang="en">
+      <Html lang="en">
         <Head>
           <script
             async
@@ -20,13 +20,13 @@ export default class MyDocument extends Document {
 
               gtag('config', '${NEXT_PUBLIC_GOOGLE_ANALYTICS}');`,
             }}
-          />
+          ></script>
         </Head>
         <body>
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }
