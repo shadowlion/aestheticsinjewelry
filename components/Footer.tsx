@@ -1,9 +1,8 @@
-import Nav from "react-bootstrap/Nav";
 import ContactForm from "./ContactForm";
 
 const Footer = () => {
   return (
-    <footer className="bg-light py-5">
+    <footer className="bg-light pt-5 pb-3">
       <div className="container">
         <div className="row d-flex justify-content-between">
           <div className="col-md-6">
@@ -37,23 +36,23 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <Nav className="flex-column flex-md-row justify-content-md-center">
-          <Nav.Item>
-            <span className="nav-link">
-              <a href="tel:5025892728">(502) 589-2728</a>
-            </span>
-          </Nav.Item>
-          <Nav.Item>
-            <span className="nav-link">
-              <a href="mailto:info@aestheticsinjewelry.com">
-                info@aestheticsinjewelry.com
-              </a>
-            </span>
-          </Nav.Item>
-          <Nav.Item>
-            <span className="nav-link">Fax: (502) 589-0209</span>
-          </Nav.Item>
-          <Nav.Item>
+        <ul className="nav flex-column flex-md-row justify-content-md-center">
+          <li className="nav-item">
+            <a href="tel:5025892728" className="nav-link">
+              (502) 589-2728
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="mailto:info@aestheticsinjewelry.com" className="nav-link">
+              info@aestheticsinjewelry.com
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav-link">
+              Fax: (502) 589-0209
+            </a>
+          </li>
+          <li className="nav-item">
             <a
               href="https://www.youtube.com/channel/UCnsJN9wV4YbptB8NmlXFVaQ"
               target="_blank"
@@ -62,8 +61,8 @@ const Footer = () => {
             >
               Youtube
             </a>
-          </Nav.Item>
-          <Nav.Item>
+          </li>
+          <li className="nav-item">
             <a
               href="https://www.facebook.com/aestheticsinjewelry/"
               target="_blank"
@@ -72,8 +71,8 @@ const Footer = () => {
             >
               Facebook
             </a>
-          </Nav.Item>
-          <Nav.Item>
+          </li>
+          <li className="nav-item">
             <a
               href="https://www.instagram.com/aestheticsinjewel/"
               target="_blank"
@@ -82,8 +81,8 @@ const Footer = () => {
             >
               Instagram
             </a>
-          </Nav.Item>
-          <Nav.Item>
+          </li>
+          <li className="nav-item">
             <a
               href="https://g.page/aestheticsinjewelry"
               target="_blank"
@@ -92,10 +91,10 @@ const Footer = () => {
             >
               Our Business Page
             </a>
-          </Nav.Item>
-        </Nav>
+          </li>
+        </ul>
         <hr />
-        <div className="text-center">
+        <div className="text-center text-muted">
           &#169; {new Date().getFullYear()} Aesthetics in Jewelry
         </div>
       </div>
