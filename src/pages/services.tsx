@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Card from "react-bootstrap/Card";
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Tab from "react-bootstrap/Tab";
 
@@ -40,7 +39,7 @@ const ServicesPage = () => {
             </Card.Header>
             <Tab.Content>
               <Tab.Pane eventKey="first">
-                <Container className="py-3">
+                <div className="container py-3">
                   <Card.Title>Ring Resizing</Card.Title>
                   <Card.Text>
                     We adjust the size of your ring to fit properly. Even
@@ -104,10 +103,10 @@ const ServicesPage = () => {
                     stones, or bent shank, then it&apos;s time to visit
                     Aesthetics In Jewelry.
                   </Card.Text>
-                </Container>
+                </div>
               </Tab.Pane>
               <Tab.Pane eventKey="second">
-                <Container className="py-3">
+                <div className="container py-3">
                   <Card.Title>Pearl or Bead Restringing</Card.Title>
 
                   <Card.Text>
@@ -186,10 +185,10 @@ const ServicesPage = () => {
                     stones, or bent shank, then it&apos;s time to visit
                     Aesthetics In Jewelry.
                   </Card.Text>
-                </Container>
+                </div>
               </Tab.Pane>
               <Tab.Pane eventKey="third">
-                <Container className="py-3">
+                <div className="container py-3">
                   <Card.Title>Custom Design Services</Card.Title>
                   <ul>
                     <li>
@@ -225,10 +224,10 @@ const ServicesPage = () => {
                     stones, or bent shank, then it&apos;s time to visit
                     Aesthetics In Jewelry.
                   </Card.Text>
-                </Container>
+                </div>
               </Tab.Pane>
               <Tab.Pane eventKey="fourth">
-                <Container className="py-3">
+                <div className="container py-3">
                   <Card.Title>Replacements</Card.Title>
                   <ul>
                     <li>Total Piece Replacement</li>
@@ -255,7 +254,7 @@ const ServicesPage = () => {
                   <Card.Text>
                     Included with some newly purchased items.
                   </Card.Text>
-                </Container>
+                </div>
               </Tab.Pane>
             </Tab.Content>
           </Card>

@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import AdModal from "../components/AdModal";
 import Carousel1Img from "../../public/carousel-1.jpg";
 import Carousel2Img from "../../public/carousel-2.png";
 import Carousel3Img from "../../public/carousel-3.png";
@@ -198,7 +197,6 @@ const HomePage = () => {
           </div>
         </section>
       </article>
-      {sale("2021-11-28") && <AdModal />}
     </>
   );
 };
