@@ -1,6 +1,4 @@
 import { useState } from "react";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
 import { useForm, SubmitHandler } from "react-hook-form";
 
 type Inputs = {
@@ -34,62 +32,89 @@ const ContactForm = () => {
   return (
     <>
       {!formSubmitted ? (
-        <Form onSubmit={handleSubmit(onSubmit)}>
-          <Form.Group className="mb-3" controlId="formDataName">
-            <Form.Label>Name:</Form.Label>
-            <Form.Control
+        <form onSubmit={handleSubmit(onSubmit)}>
+          <div className="mb-3">
+            <label htmlFor="name" className="form-label">
+              Name:
+            </label>
+            <input
               type="text"
+              className="form-control"
+              id="name"
               placeholder="Enter your name"
               required
               {...register("name")}
             />
-          </Form.Group>
+          </div>
 
-          <Form.Group className="mb-3">
-            <Form.Label>Preferred Method of Contact:</Form.Label>
-            <Form.Check
-              inline
-              type="radio"
-              label="Phone"
-              value="phone"
-              {...register("preferredMethod")}
-              className="ml-3"
-            />
-            <Form.Check
-              inline
-              type="radio"
-              label="Email"
-              value="email"
-              {...register("preferredMethod")}
-            />
-          </Form.Group>
+          <div className="mb-3">
+            <label htmlFor="preferred-method-group">
+              Preferred Method of Contact:
+            </label>
+            <br />
+            <div
+              id="preferred-method-group"
+              className="btn-group"
+              role="group"
+              aria-label="Basic radio toggle button group"
+            >
+              <input
+                type="radio"
+                className="btn-check"
+                name="preferred-method"
+                id="phone"
+                value="phone"
+                {...register("preferredMethod")}
+              />
+              <label className="btn btn-outline-primary" htmlFor="phone">
+                Phone
+              </label>
 
-          <Form.Group className="mb-3" controlId="formDataMethodInfo">
-            <Form.Label>
+              <input
+                type="radio"
+                className="btn-check"
+                name="preferred-method"
+                id="email"
+                value="email"
+                {...register("preferredMethod")}
+              />
+              <label className="btn btn-outline-primary" htmlFor="email">
+                Email
+              </label>
+            </div>
+          </div>
+
+          <div className="mb-3">
+            <label htmlFor="method-info" className="form-label">
               Please provide details, based on your preferences above:
-            </Form.Label>
-            <Form.Control
+            </label>
+            <input
               type="text"
-              placeholder="Please provide details, based on your preferences above"
+              className="form-control"
+              id="method-info"
+              placeholder="Contact details"
               required
               {...register("methodInfo")}
             />
-          </Form.Group>
+          </div>
 
-          <Form.Group className="mb-3" controlId="formDataMessage">
-            <Form.Label>Message:</Form.Label>
-            <Form.Control
-              as="textarea"
-              placeholder="Leave a comment here"
+          <div className="mb-3">
+            <label htmlFor="message" className="form-label">
+              Message:
+            </label>
+            <textarea
+              className="form-control"
+              id="message"
+              placeholder="Leave a comment"
               required
               {...register("message")}
             />
-          </Form.Group>
+          </div>
 
-          <Button variant="primary" type="submit">
+          <button className="btn btn-primary" type="submit">
             Submit
-          </Button>
-        </Form>
+          </button>
+        </form>
       ) : (
         <p>Thanks! We&apos;ll get back to you as soon as we can.</p>
       )}
