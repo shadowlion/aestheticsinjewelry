@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import { birthstones, Birthstone } from "../../data";
-import { getMonthFromIndex } from "../../helpers";
+import { birthstones, Birthstone } from "../../lib/data";
+import { getMonthFromIndex } from "../../lib/helpers";
 
 const BirthstoneCard = ({
   birthstone,

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import { exceptionals, Exceptional } from "../../data";
+import { exceptionals, Exceptional } from "../../lib/data";
 
 const ExceptionalCard = ({
   exceptional,
