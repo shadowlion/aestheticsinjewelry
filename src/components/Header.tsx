@@ -1,31 +1,75 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import Link from "next/link";
 
 const Header = () => {
   return (
     <header>
-      <Navbar bg="transparent" variant="light" expand="lg">
-        <Container>
-          <Navbar.Brand href="/">Aesthetics in Jewelry</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
-              <Navbar.Text>
-                Let&apos;s find you some amazing jewelry!
-              </Navbar.Text>
-            </Nav>
-            <Nav className="ml-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about">About Us</Nav.Link>
-              <Nav.Link href="/exceptionals">Exceptionals</Nav.Link>
-              <Nav.Link href="/birthstones">Birthstones</Nav.Link>
-              <Nav.Link href="/services">Services</Nav.Link>
-              <Nav.Link href="/visit">Visit Us</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+      <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div className="container py-3">
+          <Link href="/">
+            <a className="navbar-brand">Aesthetics in Jewelry</a>
+          </Link>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <span className="navbar-text">
+              Let&apos;s find you some amazing jewelry!
+            </span>
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <Link href="/">
+                  <a className="nav-link" aria-current="page">
+                    Home
+                  </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href="/about">
+                  <a className="nav-link" aria-current="page">
+                    About Us
+                  </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href="/exceptionals">
+                  <a className="nav-link" aria-current="page">
+                    Exceptionals
+                  </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href="/birthstones">
+                  <a className="nav-link" aria-current="page">
+                    Birthstones
+                  </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href="/services">
+                  <a className="nav-link" aria-current="page">
+                    Services
+                  </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href="/visit">
+                  <a className="nav-link" aria-current="page">
+                    Visit Us
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
   );
 };
