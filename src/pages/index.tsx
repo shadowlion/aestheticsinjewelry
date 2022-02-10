@@ -8,12 +8,15 @@ import Carousel3Img from "../../public/carousel-3.png";
 import Service1Img from "../../public/service-1.png";
 import Service2Img from "../../public/service-2.png";
 import Service3Img from "../../public/service-3.png";
+import AdImg from "../../public/ad.jpg";
+import AdModal from "../components/ModalAd";
 
 const HomePage = () => {
   const sale = (datestring: string): boolean => {
     return Date.parse(new Date().toString()) - Date.parse(datestring) <= 0;
   };
 
+  const [modalState, setModalState] = useState<boolean>(true);
   const [carouselIndex, setCarouselIndex] = useState<number>(0);
 
   const handlePrev = (): void => {
@@ -197,6 +200,7 @@ const HomePage = () => {
           </div>
         </section>
       </article>
+      {sale("2022-02-12 15:00:00") && <AdModal image={AdImg} />}
     </>
   );
 };
