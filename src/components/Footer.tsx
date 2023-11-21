@@ -22,11 +22,11 @@ const Footer = () => {
             </a>
 
             <address>
-              M-F: 10:00am - 4:00pm
+              Tues - Fri: 10:00am - 4:00pm
               <br />
               Sat: 10:00am - 3:00pm
               <br />
-              Sun: Closed
+              Sun - Mon: Closed
               <br />
             </address>
           </div>
