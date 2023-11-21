@@ -1,3 +1,4 @@
+import { StaticImageData } from "next/image";
 import Exceptional1Img from "../../public/exceptional-1.png";
 import Exceptional2Img from "../../public/exceptional-2.png";
 import Exceptional3Img from "../../public/exceptional-3.png";
@@ -5,6 +6,9 @@ import Exceptional4Img from "../../public/exceptional-4.png";
 import Exceptional5Img from "../../public/exceptional-5.png";
 import Exceptional6Img from "../../public/exceptional-6.png";
 import Stone1 from "../../public/stone-1.jpg";
+import Stone10 from "../../public/stone-10.jpg";
+import Stone11 from "../../public/stone-11.jpg";
+import Stone12 from "../../public/stone-12.jpg";
 import Stone2 from "../../public/stone-2.jpg";
 import Stone3 from "../../public/stone-3.jpg";
 import Stone4 from "../../public/stone-4.jpg";
@@ -13,9 +17,6 @@ import Stone6 from "../../public/stone-6.jpg";
 import Stone7 from "../../public/stone-7.jpg";
 import Stone8 from "../../public/stone-8.jpg";
 import Stone9 from "../../public/stone-9.jpg";
-import Stone10 from "../../public/stone-10.jpg";
-import Stone11 from "../../public/stone-11.jpg";
-import Stone12 from "../../public/stone-12.jpg";
 
 export type Exceptional = {
   title: string;
